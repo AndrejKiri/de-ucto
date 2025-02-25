@@ -1,0 +1,31 @@
+{
+  "name": "de-ucto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrejKiri/de-ucto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrejKiri/de-ucto/issues"
+  },
+  "homepage": "https://github.com/AndrejKiri/de-ucto#readme",
+  "description": "",
+  "dependencies": {
+    "@astrojs/mdx": "^4.0.8",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/tailwind": "^6.0.0",
+    "astro": "^5.3.1",
+    "tailwindcss": "^3.4.17"
+  }
+}
