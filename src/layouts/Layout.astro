@@ -32,6 +32,18 @@ const { title } = Astro.props;
   <body>
     <slot />
     <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.9em;">
+      <h2 style="margin-top: 0;">Kontaktní údaje</h2>
+      <p>
+        <strong>Sídlo společnosti:</strong><br />
+        Bayerova 792/23<br />
+        602 00 Brno, Veveří
+      </p>
+      <p>
+        <strong>IČO:</strong> 29235731<br />
+        <strong>Datová schránka:</strong> 8grtntx<br />
+        <strong>Telefon:</strong> +420 737 746 260<br />
+        <strong>E-mail:</strong> <a href="mailto:info@de-ucto.cz">info@de-ucto.cz</a>
+      </p>
       <p>© {new Date().getFullYear()} DE-účto, a.s. Všechna práva vyhrazena.</p>
     </footer>
   </body>
